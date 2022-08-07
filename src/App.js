@@ -1,6 +1,7 @@
 import './App.css'
+
+//Components
 import Form from './components/Form'
-import MainArea from './components/MainArea'
 
 import doleta from './Assets/doleta.png'
 
