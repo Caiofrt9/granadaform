@@ -22,6 +22,16 @@ const Form = () => {
         <h2>Cadastro de Associados - Atlética Granada</h2>
       </div>
 
+      <div className="benefits">
+        <h3>Beneficios Associados Granada</h3>
+        <h4>Desconto Em estabelecimentos parceiros</h4>
+        <h4>Desconto Em produtos da atlética</h4>
+        <h4>Desconto Em entrada de eventos</h4>
+        <h4>Desconto Em jogos Organizados pela atlética</h4>
+        <h4>Carteirinha de socio</h4>
+        <h4>Grupo exclusivo no Whatsapp</h4>
+      </div>
+
       <div className="form">
         <form
           action="https://formsubmit.co/silvacaio295@gmail.com"
@@ -39,7 +49,7 @@ const Form = () => {
             </div>
 
             <div className="input-box">
-              <label for="name">Telefone</label>
+              <label for="name">Numero</label>
               <input
                 id="number"
                 type="tel"
@@ -53,38 +63,8 @@ const Form = () => {
                 id="email"
                 type="email"
                 name="email"
-                placeholder="Digite seu email para contato"
+                placeholder="Email para contato"
               />
-            </div>
-          </div>
-
-          <div className="plan">
-            <div className="plan-title">
-              <h2>Escolha seu plano de associação.</h2>
-              <h4>
-                Plano 1: Descontos em lojas parceiras, descontos em produtos da
-                atlética, descontos em jogos da atlética.
-              </h4>
-              <h4>
-                Plano 2: Todos os benefícios do Plano 1 + direito a 1 Kit Caneca
-                + Tirante sem custos adicionais.
-              </h4>
-            </div>
-
-            <div className="plan-group">
-              <div className="plan-input">
-                <input type="radio" id="plano1" name="plano1" />
-                <label for="plano1">
-                  Plano 1: R$ 70,00. Renovação por R$ 50,00.
-                </label>
-              </div>
-
-              <div className="plan-input">
-                <input type="radio" id="plano2" name="plano1" />
-                <label for="plano2">
-                  Plano 2: R$ 100,00. Renovação por R$ 80,00
-                </label>
-              </div>
             </div>
           </div>
 
