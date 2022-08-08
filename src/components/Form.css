@@ -153,5 +153,7 @@
 }
 
 @media (max-width: 600px) {
-
+  #container {
+    max-width: 60%;
+  }
 }
