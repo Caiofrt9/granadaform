@@ -34,7 +34,7 @@ const Form = () => {
 
       <div className="form">
         <form
-          action="https://formsubmit.co/silvacaio295@gmail.com"
+          action="https://formsubmit.co/adm.atleticagranada@gmail.com"
           method="POST"
         >
           <div className="input-group">
